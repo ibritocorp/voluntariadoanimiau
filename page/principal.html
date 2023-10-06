@@ -111,6 +111,20 @@
             <p>Saiba mais sobre nosso trabalho em prol dos animais e como você pode ajudar.</p>
         </div>
     </div>
+
+<script>
+    // Obtém todos os elementos h2
+    const h2Elements = document.querySelectorAll('.section h2');
+
+    // Adiciona um evento de clique a cada elemento h2
+    h2Elements.forEach(h2 => {
+        h2.addEventListener('click', () => {
+            // Obtém o texto do h2 clicado e redireciona para a página correspondente
+            const pageName = h2.textContent.toLowerCase().replace(/\s/g, '-') + '.html';
+            window.open(pageName, '_blank'); // Abre a nova aba com o nome da página correspondente
+        });
+    });
+</script>
 </body>
 
 </html>
