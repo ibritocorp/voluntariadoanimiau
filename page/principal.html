@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bela Cachorrada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .logo {
+            max-width: 150px;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            z-index: 1000;
+        }
+
+        .spacer {
+            height: 70px; /* Espaço para evitar que o conteúdo fique abaixo do cabeçalho fixo */
+        }
+
+        .logo-title {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-title h1 {
+            margin: 0;
+        }
+
+        .section {
+            text-align: center;
+            margin: 120px 0 50px;
+        }
+
+        .section img {
+            max-width: 400px;
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            margin: 20px 0;
+            font-size: 24px;
+        }
+
+        .section p {
+            font-size: 18px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo-title">
+                <img class="logo" src="logo.png" alt="Logo da Bela Cachorrada">
+                <h1>Bela Cachorrada - Defendendo a Causa Animal</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div class="container">
+        <div class="section">
+            <img src="adote.jpg" alt="Adote um amigo">
+            <h2>Adote um Amigo</h2>
+            <p>Acolha! Dê um lar amoroso para um amigo fiel.</p>
+        </div>
+
+        <div class="section">
+            <img src="doe.jpg" alt="Doe Amor">
+            <h2>Doe Amor</h2>
+            <p>Faça uma doação e ajude-nos a cuidar dos animais resgatados.</p>
+        </div>
+
+        <div class="section">
+            <img src="conheca.jpg" alt="Conheça nossa ONG">
+            <h2>Conheça nossa ONG</h2>
+            <p>Saiba mais sobre nosso trabalho em prol dos animais e como você pode ajudar.</p>
+        </div>
+    </div>
+</body>
+
+</html>
